@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 12px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+header nav a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303134;
+    text-transform: uppercase;}
+
+   @media only screen and (max-width:900px;){
+    header nav {
+        display: none !important;
+      }
+   }
